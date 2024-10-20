@@ -9,7 +9,7 @@ html {
 
         background-color: #F1F0EA;
         font-family: Arial, Helvetica, sans-serif;
-        color: #ED1689;
+        color: black;
         }
 
 h1 { 
@@ -20,14 +20,20 @@ h1 {
 
         }
 
+h2 {
+
+    text-decoration: dotted;
+
+        }        
+
 ul { 
 
         list-style-type: none;
         }
 h3  {
 
-        text-decoration: dotted;
         text-transform: uppercase;
+        text-decoration: double;
 
 
-}
+        }
