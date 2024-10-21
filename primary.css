@@ -31,6 +31,6 @@ ul {
         }
 h3  {
 
-        text-transform: lowercase;
-        text-decoration-line: overline;
+        text-decoration: dotted underline orange; 
+        font-size: 125%;
         }
