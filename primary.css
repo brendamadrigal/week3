@@ -30,7 +30,7 @@ ul {
         list-style-type: none;
         }
 h3  {
-
+        color:orange;
         text-decoration: dotted underline orange; 
         font-size: 125%;
         }
