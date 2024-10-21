@@ -12,13 +12,6 @@ html {
         color: black;
         }
 
-img {
-        
-        width: 100px;
-        height: 100px;
-        
-    }       
-
 h1 { 
     
         text-transform: uppercase;
@@ -29,7 +22,7 @@ h1 {
 
 h2 {
 
-        text-decoration: dotted;
+        text-transform: uppercase;
 
     }        
 
@@ -38,6 +31,6 @@ ul {
         }
 h3  {
 
-        text-transform: uppercase;
-        text-decoration: double;
+        text-transform: lowercase;
+        text-decoration-line: overline;
         }
