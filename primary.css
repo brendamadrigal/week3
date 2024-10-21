@@ -12,28 +12,32 @@ html {
         color: black;
         }
 
+img {
+        
+        width: 100px;
+        height: 100px;
+        
+    }       
+
 h1 { 
     
         text-transform: uppercase;
         color: black;
         letter-spacing: .02em;
 
-        }
+    }
 
 h2 {
 
-    text-decoration: dotted;
+        text-decoration: dotted;
 
-        }        
+    }        
 
 ul { 
-
         list-style-type: none;
         }
 h3  {
 
         text-transform: uppercase;
         text-decoration: double;
-
-
         }
