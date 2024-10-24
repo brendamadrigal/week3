@@ -5,41 +5,85 @@ LECTURE / WEEK 03
 
 */ 
 
+/* Pseudo-class selector (change color when mouse is hovered over) */
+
+a:hover { 
+
+        color: rgb(230, 5, 114);
+        font-weight: bolder;
+}
+
 html { 
 
         background-color: #F1F0EA;
         font-family: Arial, Helvetica, sans-serif;
         color: black;
-        }
+     }
 
+/* Basic Tag Selector Examples */
 h1 { 
-    
+
         text-transform: uppercase;
         color: black;
         letter-spacing: .02em;
-
     }
 
 h2 {
-
-        text-transform: uppercase;
-
+        text-transform: capitalize;
     }        
 
-ul { 
-        list-style-type: none;
-        }
+
 h3  {
-        color:orange;
-        text-decoration: dotted underline orange; 
-        font-size: 125%;
+            color:blue;
+            text-decoration: dotted underline blue; 
+            font-size: 125%;
+    }
+
+nav li {
+            color:blueviolet;
+            list-style: square;
         }
 
-
- .center {
+/* Class Selector Examples, on page bouquet.html */
+.center {
             display: block;
             margin-left: auto;
             margin-right: auto;
             width: 25%;
             height: 25%;
-          }
+        }
+
+.footercopy { 
+            font-style:italic;
+            text-align: center;
+            background-color: blanchedalmond;
+            border: 25px black
+            }
+/* ID Selector */
+
+#localplaces, 
+#flowerpower{
+            font-style: italic;
+            }   
+
+
+
+
+   
+/* target list  that are inside of dl */
+
+
+dl li:nth-of-type(odd) {
+            background-color: rgb(222, 210, 52);
+            color: red;
+            list-style-type: square;
+            font-size: 25px;
+                    }
+
+ 
+dl li:nth-of-type(even) {
+
+            background-color: rgb(230, 173, 204);
+            color: hotpink;
+            font-size: 50px;
+                    }
