@@ -7,6 +7,7 @@ LECTURE / WEEK 03
 
 /* Pseudo-class selector (change color when mouse is hovered over) */
 
+
 a:hover { 
 
         color: rgb(230, 5, 114);
